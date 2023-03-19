@@ -50,6 +50,13 @@ object SecondBuild : BuildType({
     vcs {
         root(DslContext.settingsRoot)
     }
+
+    steps {
+        script {
+            name = "Run third script"
+            scriptContent = "echo Third step"
+        }
+    }
 })
 
 object DefaultTemplate : Template({
