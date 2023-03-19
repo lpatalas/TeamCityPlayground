@@ -58,12 +58,10 @@ object DefaultTemplate : Template({
     steps {
         script {
             name = "Run first script"
-            id = "RUNNER_1"
             scriptContent = "echo First step"
         }
         script {
             name = "Run second script"
-            id = "RUNNER_2"
             scriptContent = "echo Second step"
         }
     }
