@@ -56,6 +56,10 @@ object SecondBuild : BuildType({
             name = "Run third script"
             scriptContent = "echo Third step"
         }
+        script {
+            name = "Run fourth script"
+            scriptContent = "echo Fourth script"
+        }
     }
 })
 
